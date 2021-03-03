@@ -11,16 +11,15 @@ const ManageCoursePage = props => {
 
     });
 
-    function handleTitleChange(event) {
-        const updatedCourse = {...course, title: event.target.value};
+    function handleChange(event) {
+        const updatedCourse = {...course, [event.target.name]: event.target.value};
         setCourse(updatedCourse);
-       
     }
 
     return (
         <>
             <h2>Manage Course</h2>
-            <CourseForm course={course} onTitleChange={handleTitleChange} />
+            <CourseForm course={course} onChange={handleChange} />
         </>
     )
 }
