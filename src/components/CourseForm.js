@@ -36,8 +36,6 @@ function CourseForm(props) {
             onChange={props.onChange}
             value={props.course.category}
           />
-   
-  
 
       <input type="submit" value="Save" className="btn btn-primary" />
     </form>
