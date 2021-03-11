@@ -10,5 +10,5 @@ export function saveCourse(course) {
             actionType: actionTypes.CREATE_COURSE,
             course: savedCourse
     });
-    })
+    });
 }
