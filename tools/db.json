@@ -72,19 +72,27 @@
     },
     {
       "id": 11,
-      "slug": "melanin-goddess",
-      "title": "Melanin Goddess",
-      "authorId": 2,
-      "category": "llllllllmmmm",
-      "createdAt": 1616442466980
+      "slug": "hip-hop-evolution",
+      "title": "Hip-Hop Evolution",
+      "authorId": 1,
+      "category": "HIP HOP",
+      "createdAt": 1616509510189
     },
     {
       "id": 12,
-      "slug": "no-course",
-      "title": "No course",
+      "slug": "vegan",
+      "title": "Vegan",
+      "authorId": 2,
+      "category": "food",
+      "createdAt": 1616509599356
+    },
+    {
+      "id": 13,
+      "slug": "hip-hop-evolution",
+      "title": "Hip-Hop Evolution",
       "authorId": 1,
-      "category": "it's not there",
-      "createdAt": 1616442672129
+      "category": "yooooo",
+      "createdAt": 1616509620021
     }
   ],
   "authors": [
