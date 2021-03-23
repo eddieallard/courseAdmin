@@ -7,7 +7,7 @@ const CHANGE_EVENT = "change";
 let _courses = [];
 
 class CourseStore extends EventEmitter {
-  addChangeListerner(callback) {
+  addChangeListener(callback) {
       this.on(CHANGE_EVENT, callback);
   }
 
