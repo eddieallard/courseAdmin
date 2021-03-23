@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import CourseForm from './CourseForm';
 import courseStore from '../stores/courseStore';
 import { toast } from 'react-toastify';
-import * courseActions from '../actions/courseActions';
+import * as courseActions from '../actions/courseActions';
 
 const ManageCoursePage = props => {
     const [errors, setErrors] = useState({});
